@@ -8,6 +8,10 @@ city = input()
 
 combined_URL = url + "q="+city + "&appid="+api_key
 
+<<<<<<< HEAD:10.Api.py
+=======
+
+>>>>>>> e8457a7bb5d6c56dabe564961be06f2db1de9541:10. Api.py
 responce = requests.get(combined_URL)
 
 res=responce.json()
