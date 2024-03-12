@@ -8,11 +8,6 @@ city = input()
 
 combined_URL = url + "q="+city + "&appid="+api_key
 
-mapValue = {
-     
-}
-
-
 responce = requests.get(combined_URL)
 
 res=responce.json()
