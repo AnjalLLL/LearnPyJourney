@@ -14,7 +14,7 @@ $	Ends with	"planet$"
 ()	Capture and group
 '''
 email = input("Enter your email\n")
-if re.search(r".+@+gmail+\.com$",email):
+if re.search(r"^[a-zA-Z0-9_\.]+@([a-zA-Z0-9_]+\.)?[a-zA-Z0-9_]+\.(com|edu|org)$",email):
     print("valid")
 else:
     print("Invalid")
